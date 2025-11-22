@@ -6,14 +6,9 @@
 		"resolveJsonModule": true,
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
-
 		// Type Checking
 		"strict": true,
 		"noFallthroughCasesInSwitch": true,
 		"noImplicitOverride": true,
-	},
-	
-	"include": [
-		"src"
-	]
+	}
 }
