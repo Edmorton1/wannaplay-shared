@@ -1,14 +1,28 @@
 {
 	"compilerOptions": {
 		// Control
-		"noEmit": true,
 		"noUncheckedSideEffectImports": true,
 		"resolveJsonModule": true,
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
+
+		// Compile
+		"skipLibCheck": true,
+		"outDir": "dist",
+		"declaration": true,
+		"removeComments": true,
+		"importHelpers": true,
+		"forceConsistentCasingInFileNames": true,
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "bundler",
+
 		// Type Checking
 		"strict": true,
 		"noFallthroughCasesInSwitch": true,
 		"noImplicitOverride": true,
-	}
+	},
+	"include": [
+		"src"
+	]
 }
