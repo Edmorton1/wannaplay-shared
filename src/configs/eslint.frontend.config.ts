@@ -4,7 +4,7 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import {defineConfig} from 'eslint/config';
 import reactRefresh from 'eslint-plugin-react-refresh';
 import tanstackEslintPlugin from '@tanstack/eslint-plugin-query';
-import baseEslintConfig from './base.eslint.config';
+import baseEslintConfig from './base.eslint.config.js';
 
 export default defineConfig({
   extends: [
@@ -14,6 +14,7 @@ export default defineConfig({
     ...tanstackEslintPlugin.configs['flat/recommended']
   ],
   plugins: {
+    // @ts-ignore
     'react-hooks': reactHooks.configs['recommended-latest']
   },
   languageOptions: {

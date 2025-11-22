@@ -3,7 +3,7 @@ import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 import eslintConfigPrettier from 'eslint-config-prettier/flat';
 import {globalIgnores} from 'eslint/config';
 
-const baseEslintConfig = {
+const baseEslintConfig: any = {
   extends: [
     js.configs.recommended,
     eslintPluginPrettierRecommended,
