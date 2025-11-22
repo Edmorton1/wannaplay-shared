@@ -3,7 +3,7 @@ import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 import eslintConfigPrettier from 'eslint-config-prettier/flat';
 import {globalIgnores} from 'eslint/config';
 
-const baseEslintConfig: any = {
+export const baseEslintConfig: any = {
   extends: [
     js.configs.recommended,
     eslintPluginPrettierRecommended,
@@ -23,4 +23,3 @@ const baseEslintConfig: any = {
   }
 };
 
-export default baseEslintConfig;

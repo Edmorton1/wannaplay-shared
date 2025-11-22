@@ -2,10 +2,6 @@
   "name": "wannaplay-shared",
   "version": "1.0.0",
   "description": "",
-  "main": "dist",
-  "exports": {
-    ".": "./dist"
-  },
   "scripts": {
     "watch": "tsc --watch --noEmit",
     "lint": "npx eslint . --fix",
