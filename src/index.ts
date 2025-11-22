@@ -1,2 +1,4 @@
-export * from './configs/eslint.backend.config';
-export * from './configs/eslint.frontend.config';
+import eslintBackendConfig from './configs/eslint.backend.config.js';
+import eslintFrontendConfig from './configs/eslint.frontend.config.js';
+
+export {eslintBackendConfig, eslintFrontendConfig};
